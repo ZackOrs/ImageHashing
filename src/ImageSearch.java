@@ -5,11 +5,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+//By Zachary Orsoli
+//November 2018
 
-//This class will search the file HashCodes.txt for similar hashes
+//This class will search the file HashCodes.txt for hashes
+//similar to the inputed image
 //Takes seconds to run.
 
-public class Driver {
+public class ImageSearch {
 	
 	private String hash;
 	private String location;
